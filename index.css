@@ -1,0 +1,36 @@
+h1{
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+
+}
+body{
+    background-color: beige;
+}
+#count-el{
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+}
+#increment-btn{
+    text-align: center;
+    font-family: monospace;
+    background-color: rgb(68, 228, 28);
+    border: 5px solid rgb(12,233,12)
+}
+#decrement-btn{
+    text-align: center;
+    font-family: monospace;
+    background-color: rgb(245, 63, 8);
+    border: 5px solid rgb(245, 74, 6)
+}
+#save-btn
+{
+    text-align:center;
+    font-family: 'Courier New', Courier, monospace;
+    background-color: rgba(11, 118, 240, 0.904);
+    border:5px solid rgba(58, 136, 224, 0.904);
+}
+#button{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
