@@ -128,7 +128,12 @@
   .hamburger-icon, .close-icon {
     display: none;
   }
-  
+  .show{
+    display: block !important;
+  }
+  .hide{
+    display: none !important;
+  }
   
   @media screen and (max-width: 1200px) {
     .nav-bar { 
@@ -136,10 +141,14 @@
       position: initial;
       height: auto;
       min-height: auto;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
   
-       ul, nav {
-        display: none;
-       }
+      ul, nav {
+      display: none;
+      }
   
        nav {
         width: 100%;
@@ -148,6 +157,7 @@
         background: #181818;
         height: 100%;
         margin: 0;
+        padding-top: 30%;
         z-index: 2;
         position: fixed;
   
