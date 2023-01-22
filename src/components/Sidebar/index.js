@@ -55,7 +55,7 @@ const Sidebar=()=>{
             icon={faBars}
             color="#ffd700"
             size="3x"
-            className={showNav?'hide':'show hamburger-icon'} />
+            className={showNav?'hide':'hamburger-icon'} />
         </div>
     )
 }

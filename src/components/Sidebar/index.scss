@@ -128,12 +128,6 @@
   .hamburger-icon, .close-icon {
     display: none;
   }
-  .show{
-    display: block !important;
-  }
-  .hide{
-    display: none !important;
-  }
   
   @media screen and (max-width: 1200px) {
     .nav-bar { 
@@ -188,7 +182,13 @@
           position: absolute;
           top: 15px;
           right: 15px;
-          display: block;
+          display: block !important;
        }
+       .show{
+        display: block !important;
+      }
+      .hide{
+        display: none !important;
+      }
     }
   }
