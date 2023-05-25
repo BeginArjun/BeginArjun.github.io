@@ -1,5 +1,6 @@
 .home-page{
-
+    display: flex;
+    flex-direction: column-reverse;
     .text-zone{
         position:absolute;
         left:10%;
@@ -38,7 +39,6 @@
         }
         img{
             width:32px;
-            margin-left: 20px;
             opacity: 0;
             height:auto;
             animation: rotateIn 1s linear both;
