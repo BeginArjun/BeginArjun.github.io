@@ -8,6 +8,7 @@ import {
     faLinkedin,
     faGithub,
     faTwitter,
+    faDev
   } from '@fortawesome/free-brands-svg-icons'
 const Sidebar=()=>{
     const [showNav, setShowNav] = useState(false);
@@ -45,8 +46,13 @@ const Sidebar=()=>{
                     </a>
                 </li>
                 <li>
-                    <a target="_blank" rel="noreferrer" href='https://twitter.com/aRJUN_SHARMA__'>
+                    <a target="_blank" rel="noreferrer" href='https://twitter.com/beginarjun'>
                         <FontAwesomeIcon icon={faTwitter} />
+                    </a>
+                </li>
+                <li>
+                    <a target="_blank" rel="noreferrer" href='https://dev.to/beginarjun'>
+                        <FontAwesomeIcon icon={faDev} />
                     </a>
                 </li>
             </ul>
