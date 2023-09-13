@@ -31,12 +31,23 @@ const About=()=>{
                     idx={15}
                     />
                 </h1>
-                <p>As a Computer Science student, I am deeply invested in my academic pursuits. 
-                    In my spare time, I enjoy indulging in my passion for film and engaging in competitive coding activities. I am particularly interested in web development and am currently honing my skills in ReactJS. I possess a strong foundation in programming languages such as C++ and Python, 
-                    as evidenced by the various projects I have completed <a target="_blank" rel="noreferrer" href='https://github.com/BeginArjun'>(See my Github)</a>
+                <p>
+                I am a Frontend Developer with a passion for creating unique and business-focused user experiences. My goal is to help businesses achieve their objectives by designing intuitive and engaging websites and online applications. I believe that the user experience is the key to success in today's digital world,
+                 and I strive to create designs that are both functional and aesthetically pleasing.
                 </p>
-                <p>Currently, I am pursuing a Bachelor of Technology degree at Lovely Professional University, 
-                    where I am continually motivated to push the boundaries of my knowledge and expertise.
+                <p>
+                When I'm not working on web development projects, I enjoy indulging in my love of movies. As a cinephile, I'm always on the lookout for new films 
+                to watch and analyze. I find that movies are a great source of inspiration for my work,
+                as they often showcase innovative storytelling techniques and visual design.
+                </p>
+                <p>
+                In addition to watching movies, I also enjoy writing tech blogs in my free time.
+                 Through my blog posts, I aim to share my knowledge and insights with others in the tech community.
+                 Writing is a great way for me to organize my thoughts and reflect on my experiences as a developer.
+                </p>
+                <p>
+                Overall, I'm passionate about using technology to create meaningful experiences for users. 
+                Whether it's through web development or writing, I'm always looking for ways to make a positive impact.
                 </p>
             </div>
             <div className='stage-cube-cont'>
